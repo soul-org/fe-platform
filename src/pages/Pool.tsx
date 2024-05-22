@@ -12,7 +12,7 @@ export default function Pool() {
       </div>
       <div className="grow mx-10">
         <div className="flex justify-between items-end w-[25%]">
-          <img src="src/assets/avalanche.svg" className="h-12" alt="Avalanche Logo" />
+          <img src="/avalanche.svg" className="h-12" alt="Avalanche Logo" />
           <span className="text-5xl font-bold mx-4">Avalanche</span>
           <span className="text-xs bg-[#FFFFFF0D] rounded-2xl px-3 py-1 my-2">AVAX</span>
         </div>
