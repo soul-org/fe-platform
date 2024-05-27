@@ -34,7 +34,7 @@ export default function Pool() {
             <Row
               title="Interest Rates"
               columns={[
-                { title: "Bonus Tewards", value: "9.6% APR" },
+                { title: "Bonus Rewards", value: "9.6% APR" },
                 { title: "TVL", value: "$1.3M" },
                 { title: "7D Prize Pool Contribution", value: "0.513 WETH" },
               ]}
