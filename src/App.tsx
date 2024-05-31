@@ -1,7 +1,7 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import Pool from "./pages/Pool";
 import Home from "./pages/Home";
+import Pool from "./pages/Pool";
 
 function App() {
   return (
