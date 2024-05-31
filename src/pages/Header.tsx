@@ -26,12 +26,7 @@ const Header = () => {
       </h2>
       <div className="flex items-center justify-center gap-3 my-6">
         {arrayCard.map((card) => (
-          <Card
-            key={card.title}
-            logo={card.logo}
-            title={card.title}
-            description={card.description}
-          />
+          <Card key={card.title} logo={card.logo} title={card.title} description={card.description} />
         ))}
       </div>
     </div>
