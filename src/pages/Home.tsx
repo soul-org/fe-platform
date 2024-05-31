@@ -7,7 +7,7 @@ const Home = () => {
       <Navbar />
       <Header />
     </div>
-  )
-}
+  );
+};
 
 export default Home;
