@@ -24,8 +24,8 @@ const Header = () => {
     <div className='flex flex-col items-center justify-center my-20'>
       <h2 className='text-6xl my-3 font-bold'><span className="text-orange-600">No Loss</span> Prize Savings Protocol</h2>
       <div className='flex items-center justify-center gap-3 my-6'>
-        {arrayCard.map((card, index) => (
-            <Card key={index} logo={card.logo} title={card.title} description={card.description} />
+        {arrayCard.map((card) => (
+            <Card key={card.title} logo={card.logo} title={card.title} description={card.description} />
         ))}
       </div>
     </div>
